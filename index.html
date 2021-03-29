@@ -18,6 +18,7 @@
     nav {
         background: rgb(239, 80, 41);
         margin: 0 auto;
+        margin-bottom: 20px;
         display: flex;
         padding: 10px;
     }
@@ -71,11 +72,11 @@
     <div id="all-contents"> 
         <nav>
         <h1>Branden's Glorious Website</h1>
-         <ul>
-        <li>
+         <ul id="nav-ul">
+        <li class="nav-li">
           <a href="index.html"> Home </a>
         </li>
-        <li>
+        <li class="nav-li">
           <a href="portfolio.html"> Portfolio </a>
         </li>
     </ul>
@@ -83,20 +84,24 @@
 
         <main>
             
-            <div>
-            <h2>Branden LaCroix</h2>
-            <p>Student at East Ascension High</p>
+            <div class="sidebar">
+            <img src=https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Black_Clover_vol_6.png/220px-Black_Clover_vol_6.png>
             </div>
 
-            <img src=https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Black_Clover_vol_6.png/220px-Black_Clover_vol_6.png>
-            <div>
+          
+            <div class="content">
+                <h2>Branden Lacroix</h2>
+                <p>Student at East Ascension High</p>
+                <div>
                 <h3>Interest</h3>
-                <ul>
+                <ul id="interests">
                     <li>Working out</li>
-                    <li>plalalaying video games</li>
+                    <li>playing video games</li>
                     <li>listning to music</li>
                 </ul>
             </div>
+        </div>
         </main>
     </div>
 </body>
+</html>
